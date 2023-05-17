@@ -58,7 +58,7 @@ resource "google_container_node_pool" "primary_notes_pool" {
 }
 
 data "google_project" "dns-tsb-sandbox" {
-  project_id = 883101776206
+  project_id = var.dns_project_id
 }
 
 data "google_dns_managed_zone" "gcp_sandbox" {

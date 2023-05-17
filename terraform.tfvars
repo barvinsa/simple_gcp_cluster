@@ -2,6 +2,7 @@
 num_clusters = 3
 project_name = ""
 project_id = ""
+dns_project_id = ""
 labels = { "tag1" = "value1", "tag2"  = "value2" }
 billing_account = ""
 org_id = ""

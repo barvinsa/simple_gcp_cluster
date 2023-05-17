@@ -28,3 +28,6 @@ variable "org_id" {
 
 variable "num_clusters" {
 }
+
+variable "dns_project_id" {
+}
